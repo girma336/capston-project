@@ -1,33 +1,3 @@
-
-
-// const menu = document.querySelector(".menu");
-// const menuItems = document.querySelectorAll(".menuItem");
-// const hamburger= document.querySelector(".hamburger");
-// const closeIcon= document.querySelector(".closeIcon");
-// const menuIcon = document.querySelector(".menuIcon");
-
-// function toggleMenu() {
-//   if (menu.classList.contains("showMenu")) {
-//     menu.classList.remove("showMenu");
-//     closeIcon.style.display = "none";
-//     menuIcon.style.display = "block";
-//   } else {
-//     menu.classList.add("showMenu");
-//     closeIcon.style.display = "block";
-//     menuIcon.style.display = "none";
-//   }
-// }
-
-// hamburger.addEventListener("click", toggleMenu);
-
-// menuItems.forEach( 
-//   function(menuItem) { 
-//     menuItem.addEventListener("click", toggleMenu);
-//   }
-// )
-
-
-
 const speakerData = [
     {
         name: 'Ryan.S',
@@ -119,43 +89,16 @@ window.addEventListener('load', () => {
      });    
 });
 
-// const mobileBtn = document.getElementById('menu-bar');
-// const exitBtn = document.getElementById('close-menu');
-// const nav = document.getElementById('#nav');
-
-
-
-
-// mobileBtn.addEventListener('click', () => {
-//   nav.classList.add('new-class');
-//   window.alert("girma");
-// });
-
-// function display() {
-//   nav.classList.remove('new-class');
-  
-// };
-
-// exitBtn.addEventListener('click', display);
-
 const mobileBtn = document.getElementById('menu-bar');
 const exitBtn = document.getElementById('close-menu');
 const nav = document.querySelector('nav');
-// popover project 
-// const btn_button = document.getElementById('btn-button');
-const btn_button = document.querySelector('.btn')
-// const div = document.querySelector('.popover-all');
-const exitPopover = document.getElementById('close-popover');
 
-// btn_button.addEventListener('click', () =>{
-//    div.classList.add('popover-display');
-// })
+
 mobileBtn.addEventListener('click', () => {
   nav.classList.add('menu-btn');
 });
 
 function display() {
   nav.classList.remove('menu-btn');
-}
-
+};
 exitBtn.addEventListener('click', display);
