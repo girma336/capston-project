@@ -15,7 +15,7 @@
 [live demo](https://www.loom.com/share/ffe0947cbb05410eae7b9009dc99345b)
 
 ## Go Live 
-https://girma336.github.io/Portfolio/
+[capston project](https://girma336.github.io/capston-project/)
 
 
 ## Getting Started
